@@ -156,7 +156,16 @@ graph LR
 
 ## Screenshots
 
-> 📱 스크린샷 준비 중
+<p align="center">
+  <img src="Screenshot_1775404259.png" width="18%" alt="홈 대시보드"/>
+  <img src="Screenshot_1775404267.png" width="18%" alt="수업신청"/>
+  <img src="Screenshot_1775404269.png" width="18%" alt="WOD 상세"/>
+  <img src="Screenshot_1775404270.png" width="18%" alt="기록 (InBody / PR)"/>
+  <img src="Screenshot_1775404273.png" width="18%" alt="내 정보"/>
+</p>
+<p align="center">
+  <sub>홈 대시보드 &nbsp;·&nbsp; 수업신청 &nbsp;·&nbsp; WOD 상세 &nbsp;·&nbsp; 기록 (InBody / PR) &nbsp;·&nbsp; 내 정보</sub>
+</p>
 
 ---
 
