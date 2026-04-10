@@ -137,13 +137,14 @@
 
 **배포 파이프라인:**
 
-```mermaid
-graph LR
-    A["Git Push\nmain"] --> B["GitHub Actions"]
-    B --> C["Docker Build"]
-    C --> D["AWS Lightsail\n백엔드 자동 배포"]
+```
+Git Push (main)
+  → GitHub Actions
+    → Docker Build
+      → AWS Lightsail (백엔드 자동 배포)
 
-    E["Git Push\nmain"] --> F["Cloudflare Pages\n관리자 웹 자동 배포"]
+Git Push (main)
+  → Cloudflare Pages (관리자 웹 자동 배포)
 ```
 
 | 플랫폼 | 용도 |
@@ -167,6 +168,15 @@ graph LR
   <sub>홈 대시보드 &nbsp;·&nbsp; 수업신청 &nbsp;·&nbsp; WOD 상세 &nbsp;·&nbsp; 기록 (InBody / PR) &nbsp;·&nbsp; 내 정보</sub>
 </p>
 
+<p align="center">
+  <img src="admin-members.png" width="45%" alt="관리자웹 — 회원관리"/>
+  &nbsp;&nbsp;
+  <img src="admin-notifications.png" width="45%" alt="관리자웹 — 알림설정"/>
+</p>
+<p align="center">
+  <sub>관리자 웹 — 회원관리 &nbsp;·&nbsp; 알림설정</sub>
+</p>
+
 ---
 
 ## Download
@@ -181,9 +191,4 @@ graph LR
 
 이 저장소는 **홍보 및 포트폴리오 목적의 쇼케이스 레포**입니다.
 소스코드는 보안 및 비즈니스상의 이유로 비공개(private) 상태로 유지됩니다.
-
----
-
-<p align="center">
-  <sub>1인 개발 · 기획부터 배포까지 · 2026</sub>
-</p>
+*1인 개발 · 기획부터 배포까지 · 2026*
